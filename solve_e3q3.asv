@@ -1,0 +1,9 @@
+function [] = solve_e3q3(C1, C2, C3)
+
+A = [C1(2) C1(3) C1(6); C2(2) C2(3) C2(6); C3(2) C3(3) C3(6)];
+
+rankA = rank(A); % todo: check this
+
+p1
+
+end
